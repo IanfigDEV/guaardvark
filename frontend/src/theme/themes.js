@@ -78,6 +78,20 @@ const muskTheme = createFullTheme({
   },
 });
 
+const lightTheme = createFullTheme({
+  accent: "#008080",
+  accentDark: "#005f5f",
+  accentLight: "#339999",
+  secondary: "#ce93d8",
+  secondaryDark: "#ab47bc",
+  secondaryLight: "#e1bee7",
+  bg: "#ffffff",
+  bgPaper: "#f5f5f5",
+  textPrimary: "#121212",
+  textSecondary: "#4f4f4f",
+  divider: "rgba(0, 0, 0, 0.12)",
+})
+
 // ─── Hacker: Terminal green on black ─────────────────────────────────────────
 
 const hackerTheme = createFullTheme({
@@ -552,6 +566,11 @@ export const themes = {
     description: "Futuristic dark theme with neon cyan and red accents",
     previewGradient: "linear-gradient(45deg, #00e5ff, #ff1744)",
     theme: muskTheme,
+  light: {
+    label: "Light Mode",
+    description: "Professional clean and bright theme",
+    previewGradient: "linear-gradient(135deg, #ffffff, #f5f5f5)",
+    theme: lightTheme,
   },
   hacker: {
     label: "Matrix Hacker",
